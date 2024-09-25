@@ -1,1 +1,15 @@
 /* completa */
+h1 {color: darkblue}
+h1, h3 { font-style: italic; }
+
+header p{ font-family: 'Courier New', Courier, monospace;}
+
+.fancy {font-family: 'Courier New', Courier, monospace}
+
+header.fancy {color: magenta;}
+
+section.statistics header h3 { color: red; }
+
+/* fer 11 i 13*/
+
+p.important {font-weight: bold; font-size: 30px; background-color: aqua;}
