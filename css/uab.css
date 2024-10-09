@@ -44,3 +44,40 @@ ul li{ /*perquè les “bullets” quedin alineades amb el text*/
 }
 
 /* completa */
+
+#layout{
+    display: grid;
+    background-color: lightgray;
+    gap: 5px;
+    padding: 5px;
+    grid-template-areas:
+    'title title'
+    'degrees register'
+    'stats stats'
+    'footer footer'
+    ;
+}
+
+#layout > #degrees, #layout > #title, #layout > #register, #layout > #stats, #layout > #footer{
+    background-color: white;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+    vertical-align: center;
+}
+
+#stats > table{
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    #layout{
+        grid-template-areas:
+        'title'
+        'grades'
+        'register'
+        'stats'
+        'footer'
+        ;
+    }
+}

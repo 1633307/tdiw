@@ -7,4 +7,5 @@ function confirmaRegistre(){
 
 async function carregaMencions(){
     //completa
+    let response = await fetch("http://localhost:8080")
 }
